@@ -42,3 +42,6 @@ next-env.d.ts
 
 # QA — saídas brutas de geração (relatório vai commitado em qa/)
 /qa/results/
+
+# Obsidian — vault de estratégia/notas, fica local (não versionar no repo de código)
+/vault-cadencia/
