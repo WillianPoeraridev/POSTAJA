@@ -15,18 +15,18 @@ const PILLARS = [
 
 const STEPS = [
   {
-    title: "Conta do seu negócio",
-    text: "Nicho, serviços, preços e bairro.",
+    title: "Diz do seu negócio",
+    text: "Nicho, oferta e tom de voz. Uma vez só.",
     icon: "M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z",
   },
   {
-    title: "A IA monta seu mês",
-    text: "30 posts com método, em 10 segundos.",
+    title: "Recebe a estratégia montada",
+    text: "30 dias, cada post com função de venda, no dia e horário certo.",
     icon: "M13 10V3L4 14h7v7l9-11h-7z",
   },
   {
-    title: "Recebe e posta",
-    text: "O post do dia chega no seu WhatsApp.",
+    title: "Você só posta",
+    text: "O post do dia chega no seu WhatsApp. Zero decisão diária.",
     icon: "M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z",
   },
 ];
@@ -37,7 +37,7 @@ export default function LandingPage() {
       <nav className="border-b border-neutral-800">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <span className="text-xl font-bold bg-gradient-to-r from-rose-400 to-orange-400 bg-clip-text text-transparent">
-            RitmoPost
+            Cadência
           </span>
           <div className="flex items-center gap-2">
             <Link
@@ -50,7 +50,7 @@ export default function LandingPage() {
               href="/cadastro"
               className="text-sm bg-rose-500 hover:bg-rose-400 transition-colors px-4 py-2 rounded-lg font-medium text-white"
             >
-              Criar grátis
+              Ver meu mês grátis
             </Link>
           </div>
         </div>
@@ -62,23 +62,23 @@ export default function LandingPage() {
           {/* Texto à esquerda */}
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.05]">
-              Seu mês inteiro de Instagram,{" "}
+              O trabalho difícil do seu Instagram é a estratégia.{" "}
               <span className="bg-gradient-to-r from-rose-400 to-orange-400 bg-clip-text text-transparent">
-                pronto em 10 segundos.
+                Ela já vem pronta.
               </span>
             </h1>
             <p className="text-lg text-neutral-400 mt-5 max-w-md">
-              Posts, stories e legendas feitos pro seu negócio.
+              Cada post com uma função — atrair, criar confiança, vender. Montado pro seu negócio. Você só posta.
             </p>
             <div className="mt-7 flex flex-col sm:flex-row sm:items-center gap-4">
               <Link
                 href="/cadastro"
                 className="bg-gradient-to-r from-rose-500 to-orange-500 hover:from-rose-400 hover:to-orange-400 transition-colors text-white font-semibold px-7 py-3.5 rounded-xl text-lg shadow-lg shadow-rose-900/30 text-center"
               >
-                Gerar meu plano grátis →
+                Ver meu mês grátis →
               </Link>
               <span className="text-xs text-neutral-500">
-                Grátis pra começar.<br className="hidden sm:block" /> Sem cartão.
+                Grátis pra ver funcionar.<br className="hidden sm:block" /> Sem cartão.
               </span>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function LandingPage() {
               <div className="absolute -inset-6 bg-gradient-to-tr from-rose-600/25 to-orange-600/10 blur-3xl rounded-full" />
               <div className="relative bg-neutral-900 border border-neutral-800 rounded-2xl p-5 shadow-2xl">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-sm font-semibold text-neutral-200">Seu plano do mês</span>
+                  <span className="text-sm font-semibold text-neutral-200">Seu mês, com função</span>
                   <span className="text-xs text-neutral-600">30 dias</span>
                 </div>
                 <div className="space-y-2.5">
@@ -150,35 +150,40 @@ export default function LandingPage() {
       {/* PREÇO */}
       <section className="border-t border-neutral-800">
         <div className="max-w-4xl mx-auto px-6 py-10">
-          <h2 className="text-3xl font-bold mb-6">Entre pro ritmo.</h2>
+          <h2 className="text-3xl font-bold mb-6">Liga a estratégia.</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-neutral-900 border border-neutral-800 rounded-2xl p-8">
-              <h3 className="text-lg font-semibold text-neutral-300 mb-2">Grátis</h3>
+              <h3 className="text-lg font-semibold text-neutral-300 mb-2">Ver grátis</h3>
               <p className="text-4xl font-bold mb-6">R$0</p>
               <ul className="space-y-3 text-neutral-400 text-sm mb-8">
-                <li>✓ 1 plano pro seu nicho</li>
-                <li>✓ Prévia de 7 dias</li>
+                <li>✓ 1 plano completo no seu nicho</li>
+                <li>✓ Vê o método funcionar</li>
                 <li>✓ Sem cartão</li>
               </ul>
               <Link href="/cadastro" className="block text-center bg-neutral-800 hover:bg-neutral-700 transition-colors py-3 rounded-xl font-medium">
-                Começar grátis
+                Ver meu mês grátis
               </Link>
             </div>
             <div className="bg-rose-950/20 border border-rose-900/40 rounded-2xl p-8">
               <div className="flex items-center gap-2 mb-2">
-                <h3 className="text-lg font-semibold">Pro</h3>
+                <h3 className="text-lg font-semibold">Cadência</h3>
                 <span className="text-xs bg-gradient-to-r from-rose-500 to-orange-500 px-2 py-0.5 rounded-full text-white">Mais popular</span>
               </div>
-              <p className="text-4xl font-bold mb-1">R$29,90<span className="text-lg text-neutral-400 font-normal">/mês</span></p>
-              <p className="text-sm text-neutral-400 mb-6">ou R$269/ano · 3 meses grátis</p>
+              <p className="text-4xl font-bold mb-1">R$497<span className="text-lg text-neutral-400 font-normal">/mês</span></p>
+              <p className="text-sm text-neutral-300 mb-1">
+                <span className="bg-rose-500/20 text-rose-300 text-xs font-semibold px-2 py-0.5 rounded-full">1º mês R$197</span>{" "}
+                pra testar de pé
+              </p>
+              <p className="text-xs text-neutral-500 mb-6">Cada mês sem estratégia é audiência que não converte. Começa hoje.</p>
               <ul className="space-y-3 text-neutral-300 text-sm mb-8">
-                <li>✓ Planos ilimitados</li>
+                <li>✓ A estratégia dos 30 dias, montada todo mês</li>
+                <li>✓ Cada post com função — atrair, conectar, vender</li>
                 <li>✓ O post do dia no seu WhatsApp</li>
-                <li>✓ PDF sem marca d&apos;água</li>
-                <li>✓ Histórico de 12 meses</li>
+                <li>✓ Roteiro de Reels</li>
+                <li>✓ Horário certo por post e por nicho</li>
               </ul>
               <Link href="/cadastro" className="block text-center bg-gradient-to-r from-rose-500 to-orange-500 hover:from-rose-400 hover:to-orange-400 transition-colors py-3 rounded-xl font-semibold shadow-lg shadow-rose-900/30 text-white">
-                Assinar Pro
+                Começar por R$197
               </Link>
             </div>
           </div>
@@ -187,7 +192,7 @@ export default function LandingPage() {
 
       <footer className="border-t border-neutral-800 py-8 px-6">
         <div className="max-w-6xl mx-auto text-neutral-600 text-sm">
-          RitmoPost · ritmopost.com.br
+          Cadência · ritmopost.com.br
         </div>
       </footer>
     </div>
