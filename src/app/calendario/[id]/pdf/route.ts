@@ -60,7 +60,7 @@ export async function GET(
 
   const buffer = await renderToBuffer(element);
 
-  const filename = `ritmopost-${cal.businessName.replace(/\s+/g, "-").toLowerCase()}-${cal.month}-${cal.year}.pdf`;
+  const filename = `cadencia-${cal.businessName.replace(/\s+/g, "-").toLowerCase()}-${cal.month}-${cal.year}.pdf`;
 
   return new NextResponse(new Uint8Array(buffer), {
     headers: {

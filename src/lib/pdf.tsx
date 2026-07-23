@@ -224,7 +224,7 @@ export function CalendarPdf({
               {businessName} · {niche}
             </Text>
           </View>
-          <Text style={[styles.badge, { color: primaryColor }]}>RitmoPost · ritmopost.com.br</Text>
+          <Text style={[styles.badge, { color: primaryColor }]}>Cadência · ritmopost.com.br</Text>
         </View>
 
         {watermark && (
@@ -283,7 +283,7 @@ export function CalendarPdf({
         </View>
 
         <Text style={styles.footer}>
-          Criado com RitmoPost · ritmopost.com.br · Conteudo gerado por IA
+          Criado com Cadência · ritmopost.com.br
         </Text>
 
         {watermark && (

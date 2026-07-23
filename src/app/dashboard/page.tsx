@@ -64,7 +64,7 @@ export default async function DashboardPage({
   return (
     <div className="min-h-screen flex flex-col">
       <nav className="border-b border-neutral-800 px-6 py-4 flex items-center justify-between">
-        <span className="text-xl font-bold text-rose-400">RitmoPost</span>
+        <span className="text-xl font-bold text-rose-400">Cadência</span>
         <div className="flex items-center gap-4">
           {isPro && (
             <span className="text-xs bg-rose-600/30 border border-rose-600/50 text-rose-300 px-2 py-1 rounded-full font-medium">

@@ -40,7 +40,7 @@ export default function LoginForm() {
       <div className="w-full max-w-sm">
         <div className="text-center mb-8">
           <Link href="/" className="text-2xl font-bold text-rose-400">
-            RitmoPost
+            Cadência
           </Link>
           <p className="text-neutral-400 mt-2 text-sm">Entrar na sua conta</p>
         </div>

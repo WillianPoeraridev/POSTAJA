@@ -29,7 +29,7 @@ export default async function EditarPerfilPage({
     <div className="min-h-screen flex flex-col">
       <nav className="border-b border-neutral-800 px-6 py-4 flex items-center justify-between">
         <Link href="/dashboard" className="text-xl font-bold text-rose-400">
-          RitmoPost
+          Cadência
         </Link>
         <Link
           href="/perfil"

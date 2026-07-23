@@ -42,7 +42,7 @@ export function formatDailyPostMessage(
 ): string {
   const pillarTag = day.pillar ? ` · ${PILLAR_LABELS[day.pillar]}` : "";
   return [
-    `☀️ Bom dia! Seu post de hoje no RitmoPost:`,
+    `☀️ Bom dia! Seu post de hoje no Cadência:`,
     ``,
     `📅 *Dia ${day.day} — ${day.type}${pillarTag}* (${businessName})`,
     `📌 ${day.theme}`,

@@ -1,16 +1,16 @@
 import { Resend } from "resend";
 
 // Enquanto o domínio próprio não está verificado no Resend, o sandbox onboarding@resend.dev
-// só entrega para o e-mail dono da conta. Trocar por "RitmoPost <ola@ritmopost.com.br>"
+// só entrega para o e-mail dono da conta. Trocar por "Cadência <ola@ritmopost.com.br>"
 // quando o domínio estiver verificado.
-export const EMAIL_FROM = "RitmoPost <onboarding@resend.dev>";
+export const EMAIL_FROM = "Cadência <onboarding@resend.dev>";
 
 export function emailLayout(inner: string): string {
   return `
     <div style="font-family:sans-serif;max-width:480px;margin:0 auto;color:#1a1a2e">
       ${inner}
       <hr style="border:none;border-top:1px solid #e5e7eb;margin:24px 0"/>
-      <p style="color:#9ca3af;font-size:12px">RitmoPost · ritmopost.com.br</p>
+      <p style="color:#9ca3af;font-size:12px">Cadência · ritmopost.com.br</p>
     </div>
   `;
 }
@@ -57,7 +57,7 @@ export const RETENTION_EMAILS: RetentionEmail[] = [
     subject: "Qual tipo de post performa melhor no seu nicho?",
     body: ({ name, url }) => `
       <h2 style="color:#f43f5e">Oi, ${name}! 👋</h2>
-      <p>Uma dica rápida: no Instagram, <strong>Reels e Carrossel</strong> costumam alcançar muito mais que Feed parado — por isso o RitmoPost já monta seu mês com a mistura certa.</p>
+      <p>Uma dica rápida: no Instagram, <strong>Reels e Carrossel</strong> costumam alcançar muito mais que Feed parado — por isso o Cadência já monta seu mês com a mistura certa.</p>
       <p>Se ainda não gerou seu calendário, leva uns 30 segundos:</p>
       ${emailButton(`${url}/gerar`, "Gerar meu calendário →")}
     `,
@@ -96,10 +96,10 @@ export const RETENTION_EMAILS: RetentionEmail[] = [
   {
     key: "d28",
     dayOffset: 28,
-    subject: "Em uma palavra: como foi o RitmoPost esse mês?",
+    subject: "Em uma palavra: como foi o Cadência esse mês?",
     body: ({ name }) => `
       <h2 style="color:#f43f5e">Queria muito te ouvir, ${name} 💜</h2>
-      <p>Você está com a gente há quase um mês. Em <strong>uma palavra</strong>, como foi a experiência com o RitmoPost?</p>
+      <p>Você está com a gente há quase um mês. Em <strong>uma palavra</strong>, como foi a experiência com o Cadência?</p>
       <p>É só responder este e-mail — leio todas. Seu feedback decide o que a gente constrói em seguida.</p>
     `,
   },

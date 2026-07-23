@@ -33,7 +33,7 @@ export default async function GerarPage({
   return (
     <div className="min-h-screen flex flex-col">
       <nav className="border-b border-neutral-800 px-6 py-4 flex items-center justify-between">
-        <Link href="/dashboard" className="text-xl font-bold text-rose-400">RitmoPost</Link>
+        <Link href="/dashboard" className="text-xl font-bold text-rose-400">Cadência</Link>
         <Link href="/dashboard" className="text-sm text-neutral-400 hover:text-white transition-colors">
           ← Meus calendários
         </Link>
